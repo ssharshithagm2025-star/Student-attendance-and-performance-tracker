@@ -1,1 +1,76 @@
+### STUDENT ATTENDANCE AND PERFORMANCE TRACKER
+###
+### Purpose
+This project was created to make it easier for teachers to manage both attendance and performance records of students. Instead of writing everything manually, this program helps record attendance, enter marks, and generate quick reports — all through a simple Python console interface that stores data locally in JSON format.
+
+
+
+##### System Requirements
+###### Software
+•	Python 3.7 or above
+•	Built-in modules used: json, csv, datetime, pathlib
+
+###### Hardware
+
+•	At least 512 MB RAM
+•	Around 500 MB free disk space
+•	Works best on Windows 10/11
+
+
+
+
+##### Required Installation
+
+1.	Download and install Python from https://www.python.org/downloads/.
+2.	No need to install any extra libraries — everything used comes with Python itself.
+
+
+
+
+ #### How to Run
+1.	Save the file as student_tracker.py.
+2.	Open Command Prompt or the VS Code terminal.
+3.	Navigate to the folder where the file is saved.
+4.	Type the command below and press Enter:
+           python student_tracker.py
+
+
+##### How It Works
+1.	Add Students – Register students by entering their roll numbers and names.
+2.	Mark Attendance – Record whether each student is present or absent for a given date.
+3.	Add Marks – Enter marks scored by students in various exams.
+4.	View Report – See overall attendance percentage and average marks for each student.
+5.	Check Individual Details – View full records of a single student.
+6.	Remove Students – Delete entries that are no longer needed.
+7.	Export Data – Save a summary in CSV format for easy sharing.
+
+
+##### Sample execution flow
+
+•	Run the program
+•	Add a few students
+•	Mark attendance for the current date
+•	Enter marks
+•	View or export the final report
+
+
+
+
+##### Common errors and solution
+Error: Invalid date format
+→ Make sure you use the format YYYY-MM-DD (e.g., 2025-10-27).
+Error: students.json not found
+→ It will be created automatically after adding the first student.
+
+
+
+
+##### Closing note
+
+The Student Attendance and Performance Tracker is a simple and handy project made to reduce manual work for teachers. It’s lightweight, easy to run, and can be improved in the future with features like a graphical interface or cloud backup.
+
+
+
+
+
 
