@@ -33,9 +33,11 @@ This system reduces manual effort, ensures data consistency, and speeds up atten
 ---
 
 ### Technologies Used
-- **Python 3.7+**  
-- **MySQL 8.0+**  
-- **mysql-connector-python** library  
+
+-Python 3.7+
+-JSON for data storage
+-CSV for report export
+-datetime and pathlib libraries for file and date handling 
 
 ---
 
